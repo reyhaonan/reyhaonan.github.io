@@ -54,11 +54,9 @@
 				<path d="M55 0H487L460 131L0.5 123.5L55 0Z" fill="#010101" />
 			</svg>
 
-			<summary
-				class="text-16 2xl:text-24 text-center w-2/3 mx-auto z-40 text-white font-bold relative"
-			>
+			<div class="text-16 2xl:text-24 text-center w-2/3 mx-auto z-40 text-white font-bold relative">
 				I'm a Fullstack developer from Indonesia.
-			</summary>
+			</div>
 		</div>
 	</div>
 	<svg
