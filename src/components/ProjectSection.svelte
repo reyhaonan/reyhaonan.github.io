@@ -7,7 +7,11 @@
 			<div
 				class="w-[27vw] aspect-[2/3] bg-white -rotate-12 flex-center absolute top-1/2 -translate-y-1/2 -left-[32vw]"
 			>
-				<div class="w-[24vw] aspect-[2/3] bg-black"></div>
+				<div class="w-[24vw] aspect-[2/3] overflow-y-auto block">
+					<a href="https://golektruk.com" target="_blank">
+						<img src="/golektruk.png" class="w-full" alt="" />
+					</a>
+				</div>
 			</div>
 
 			<div class="description absolute -right-[48vw] w-[56vw] -rotate-[8deg] -top-8">
