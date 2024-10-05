@@ -31,10 +31,10 @@
 			</svg>
 		</div>
 
-		<div class="flavorText absolute bottom-32 right-20">
+		<div class="flavorText absolute bottom-32 right-20 w-1/4">
 			<svg
-				width="541"
-				height="167"
+				width="100%"
+				height="auto"
 				viewBox="0 0 541 167"
 				fill="none"
 				xmlns="http://www.w3.org/2000/svg"
@@ -44,8 +44,8 @@
 			</svg>
 
 			<svg
-				width="487"
-				height="131"
+				width="90%"
+				height="auto"
 				viewBox="0 0 487 131"
 				fill="none"
 				xmlns="http://www.w3.org/2000/svg"
@@ -54,8 +54,8 @@
 				<path d="M55 0H487L460 131L0.5 123.5L55 0Z" fill="#010101" />
 			</svg>
 
-			<div class="text-24 z-40 text-white font-bold relative">
-				I'm a Fullstack developer from Indonesia .
+			<div class="text-16 2xl:text-24 text-center w-2/3 mx-auto z-40 text-white font-bold relative">
+				I'm a Fullstack developer from Indonesia.
 			</div>
 		</div>
 	</div>

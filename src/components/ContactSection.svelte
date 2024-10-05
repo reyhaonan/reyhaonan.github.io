@@ -1,6 +1,6 @@
 <section class="h-screen flex-center text-white flex-col space-y-6">
 	<h2 class="font-bold text-48">GET IN TOUCH</h2>
-	<p class="text-24 w-1/3 text-center">
+	<p class="text-24 w-1/2 2xl:w-1/3 text-center">
 		I'm currently avaliable to take on new projects, so feel free to send me a message about
 		anything that you want to run past me. You can contact anytime at 24/7
 	</p>

@@ -5,15 +5,15 @@
 	<div class="content h-screen overflow-x-hidden z-10 relative text-white">
 		<div class="work w-full text-right pt-[18vh] pr-20 font-bold space-y-8">
 			<!-- TODO: Stylize -->
-			<h2 class="text-88">WORK EXPERIENCES</h2>
+			<h2 class="text-68 2xl:text-88">WORK EXPERIENCES</h2>
 
 			<div class="job">
-				<h3 class="text-64">GolekTruk dot com</h3>
-				<p class="text-36 font-normal">Frontend Developer Nov 2021 - now</p>
+				<h3 class="text-48 2xl:text-64">GolekTruk dot com</h3>
+				<p class="text-28 2xl:text-36 font-normal">Frontend Developer Nov 2021 - now</p>
 			</div>
 			<div class="job">
-				<h3 class="text-64">PT Pupuk Kujang</h3>
-				<p class="text-36 font-normal">Internship Jan 2020 - Mar 2020</p>
+				<h3 class="text-48 2xl:text-64">PT Pupuk Kujang</h3>
+				<p class="text-28 2xl:text-36 font-normal">Internship Jan 2020 - Mar 2020</p>
 			</div>
 		</div>
 	</div>
@@ -39,7 +39,7 @@
 			<path d="M13.5 76L1159.5 0.5L1103 391.5L0 334.5L13.5 76Z" fill="#010101" />
 		</svg>
 
-		<p class="font-bold text-36 text-center absolute-center w-4/5 z-10 text-white">
+		<p class="font-bold text-28 2xl:text-36 text-center absolute-center w-4/5 z-10 text-white">
 			As a passionate Fullstack Web Developer with years of experience, I excel in transforming
 			project ideas into successful realities. I thrive on collaboration and enjoy every phase of
 			the design process.

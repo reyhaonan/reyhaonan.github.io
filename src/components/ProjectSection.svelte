@@ -37,12 +37,14 @@
 					/>
 				</svg>
 
-				<h3 class="absolute left-24 top-14 font-bold italic text-48 text-outline rotate-2">
+				<h3
+					class="absolute left-1/12 top-[14%] font-bold italic text-32 2xl:text-48 text-outline rotate-2"
+				>
 					PROJECT
 				</h3>
-				<div class="absolute left-1/3 top-14 w-1/2 rotate-2 pt-4">
-					<h4 class="font-bold italic text-48 text-white">GolekTruk dot com</h4>
-					<p class=" mt-8 font-semibold text-white text-36 italic">
+				<div class="absolute left-1/3 top-1/6 w-1/2 rotate-2">
+					<h4 class="font-bold italic text-32 2xl:text-48 text-white">GolekTruk dot com</h4>
+					<p class=" mt-8 font-semibold text-white text-28 2xl:text-36 italic">
 						Freight and goods information Exchange platform made using NextJS
 					</p>
 				</div>
