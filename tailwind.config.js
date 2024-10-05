@@ -4,9 +4,6 @@ const { fontFamily } = require('tailwindcss/defaultTheme');
 module.exports = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
-		fontWeight: {
-			bold: 400
-		},
 		colors: {
 			black: '#010101',
 			grey: '#1B1B1B',
@@ -16,21 +13,55 @@ module.exports = {
 			yellow: '#FEFA2C'
 		},
 		fontSize: {
-			42: ['2.625rem', { lineHeight: '3.15rem' }],
-			34: ['2.125rem', { lineHeight: '2.55rem' }],
-			30: ['2rem', { lineHeight: '2rem' }],
-			28: ['1.75rem', { lineHeight: '2.1rem' }],
-			24: ['1.5rem', { lineHeight: '2rem' }],
-			20: ['1.25rem', { lineHeight: '1.5rem' }],
-			18: ['1.125rem', { lineHeight: '1.375rem' }],
-			16: ['1rem', { lineHeight: '1.5rem' }],
-			14: ['0.875rem', { lineHeight: '1.25rem' }],
+			10: ['0.625rem', { lineHeight: '0.875rem' }],
 			12: ['0.75rem', { lineHeight: '1.125rem' }],
-			11: ['0.688rem', { lineHeight: '1rem' }],
-			10: ['0.625rem', { lineHeight: '0.875rem' }]
+			14: ['0.875rem', { lineHeight: '1.25rem' }],
+			16: ['1rem', { lineHeight: '1.5rem' }],
+			18: ['1.125rem', { lineHeight: '1.375rem' }],
+			20: ['1.25rem', { lineHeight: '1.5rem' }],
+			22: ['1.375rem', { lineHeight: '1.625rem' }],
+			24: ['1.5rem', { lineHeight: '2rem' }],
+			26: ['1.625rem', { lineHeight: '1.875rem' }],
+			28: ['1.75rem', { lineHeight: '2.1rem' }],
+			30: ['1.875rem', { lineHeight: '2.25rem' }],
+			32: ['2rem', { lineHeight: '2.375rem' }],
+			34: ['2.125rem', { lineHeight: '2.55rem' }],
+			36: ['2.25rem', { lineHeight: '2.625rem' }],
+			38: ['2.375rem', { lineHeight: '2.75rem' }],
+			40: ['2.5rem', { lineHeight: '2.875rem' }],
+			42: ['2.625rem', { lineHeight: '3.15rem' }],
+			44: ['2.75rem', { lineHeight: '3.25rem' }],
+			46: ['2.875rem', { lineHeight: '3.375rem' }],
+			48: ['3rem', { lineHeight: '3.5rem' }],
+			50: ['3.125rem', { lineHeight: '3.625rem' }],
+			52: ['3.25rem', { lineHeight: '3.75rem' }],
+			54: ['3.375rem', { lineHeight: '3.875rem' }],
+			56: ['3.5rem', { lineHeight: '4rem' }],
+			58: ['3.625rem', { lineHeight: '4.125rem' }],
+			60: ['3.75rem', { lineHeight: '4.25rem' }],
+			62: ['3.875rem', { lineHeight: '4.375rem' }],
+			64: ['4rem', { lineHeight: '4.5rem' }],
+			66: ['4.125rem', { lineHeight: '4.625rem' }],
+			68: ['4.25rem', { lineHeight: '4.75rem' }],
+			70: ['4.375rem', { lineHeight: '4.875rem' }],
+			72: ['4.5rem', { lineHeight: '5rem' }],
+			74: ['4.625rem', { lineHeight: '5.125rem' }],
+			76: ['4.75rem', { lineHeight: '5.25rem' }],
+			78: ['4.875rem', { lineHeight: '5.375rem' }],
+			80: ['5rem', { lineHeight: '5.5rem' }],
+			82: ['5.125rem', { lineHeight: '5.625rem' }],
+			84: ['5.25rem', { lineHeight: '5.75rem' }],
+			86: ['5.375rem', { lineHeight: '5.875rem' }],
+			88: ['5.5rem', { lineHeight: '6rem' }],
+			90: ['5.625rem', { lineHeight: '6.125rem' }],
+			92: ['5.75rem', { lineHeight: '6.25rem' }],
+			94: ['5.875rem', { lineHeight: '6.375rem' }],
+			96: ['6rem', { lineHeight: '6.5rem' }],
+			98: ['6.125rem', { lineHeight: '6.625rem' }],
+			100: ['6.25rem', { lineHeight: '6.75rem' }]
 		},
 		fontFamily: {
-			sans: ['Arsenal SC', 'sans-serif'],
+			sans: ['Arsenal', 'sans-serif'],
 			noto: ['Noto Sans', 'sans-serif']
 		},
 		extend: {
@@ -83,9 +114,6 @@ module.exports = {
 				'45/100': '45%'
 			}
 		}
-	},
-	corePlugins: {
-		container: false
 	},
 	plugins: [
 		({ addComponents }) =>
