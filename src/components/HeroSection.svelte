@@ -10,7 +10,7 @@
 
 			<svg
 				width="55%"
-				height="auto"
+				height="203"
 				viewBox="0 0 392 203"
 				fill="none"
 				xmlns="http://www.w3.org/2000/svg"
@@ -21,7 +21,7 @@
 
 			<svg
 				width="55%"
-				height="auto"
+				height="203"
 				viewBox="0 0 392 203"
 				fill="none"
 				xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +34,7 @@
 		<div class="flavorText absolute bottom-32 right-20 w-1/4">
 			<svg
 				width="100%"
-				height="auto"
+				height="167"
 				viewBox="0 0 541 167"
 				fill="none"
 				xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +45,7 @@
 
 			<svg
 				width="90%"
-				height="auto"
+				height="131"
 				viewBox="0 0 487 131"
 				fill="none"
 				xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +61,7 @@
 	</div>
 	<svg
 		width="100%"
-		height="auto"
+		height="921"
 		viewBox="0 0 1920 921"
 		fill="none"
 		class="absolute z-20 -bottom-[18vh] left-0"

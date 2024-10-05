@@ -17,7 +17,7 @@
 			<div class="description absolute -right-[48vw] w-[56vw] -rotate-[8deg] -top-8">
 				<svg
 					width="100%"
-					height="auto"
+					height="429"
 					viewBox="0 0 1098 429"
 					fill="none"
 					xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +30,7 @@
 				<svg
 					class="absolute-center"
 					width="92%"
-					height="auto"
+					height="367"
 					viewBox="0 0 990 367"
 					fill="none"
 					xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +59,7 @@
 	<svg
 		class="absolute -top-[12vh] -z-10"
 		width="100%"
-		height="auto"
+		height="883"
 		viewBox="0 0 1917 883"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"

@@ -21,7 +21,7 @@
 	<div class="flavorText absolute -bottom-[20vh] left-0 w-2/3 ml-16 z-10">
 		<svg
 			width="100%"
-			height="auto"
+			height="456"
 			viewBox="0 0 1234 456"
 			fill="none"
 			xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +31,7 @@
 		<svg
 			class="absolute-center"
 			width="92%"
-			height="auto"
+			height="392"
 			viewBox="0 0 1160 392"
 			fill="none"
 			xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +48,7 @@
 
 	<svg
 		width="100%"
-		height="auto"
+		height="1224"
 		viewBox="0 0 1920 1224"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"

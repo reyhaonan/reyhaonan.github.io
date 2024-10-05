@@ -13,7 +13,7 @@
 		>
 			<svg
 				width="100%"
-				height="auto"
+				height="88"
 				viewBox="0 0 383 88"
 				fill="none"
 				xmlns="http://www.w3.org/2000/svg"

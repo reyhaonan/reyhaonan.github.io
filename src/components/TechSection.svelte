@@ -4,7 +4,7 @@
 			fill="none"
 			xmlns="http://www.w3.org/2000/svg"
 			width="74%"
-			height="auto"
+			height="1131"
 			viewBox="0 0 1337 1131"
 			><path d="M0 1131V337L1337 1v336L0 1131Z" fill="red" /><mask
 				id="a"
@@ -25,7 +25,7 @@
 	</div>
 	<svg
 		width="100%"
-		height="auto"
+		height="892"
 		class="absolute top-0 left-0"
 		viewBox="0 0 1920 892"
 		fill="none"
