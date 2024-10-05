@@ -8,7 +8,7 @@
 				class="w-[27vw] aspect-[2/3] bg-white -rotate-12 flex-center absolute top-1/2 -translate-y-1/2 -left-[32vw]"
 			>
 				<div class="w-[24vw] aspect-[2/3] overflow-y-auto block">
-					<a href="https://golektruk.com" target="_blank">
+					<a href="https://golektruk.com" target="_blank" aria-label="Golektruk website link">
 						<img src="/golektruk.png" class="w-full" alt="" />
 					</a>
 				</div>
@@ -46,12 +46,12 @@
 				>
 					PROJECT
 				</h3>
-				<div class="absolute left-1/3 top-1/6 w-1/2 rotate-2">
+				<article class="absolute left-1/3 top-1/6 w-1/2 rotate-2">
 					<h4 class="font-bold italic text-32 2xl:text-48 text-white">GolekTruk dot com</h4>
 					<p class=" mt-8 font-semibold text-white text-28 2xl:text-36 italic">
 						Freight and goods information Exchange platform made using NextJS
 					</p>
-				</div>
+				</article>
 			</div>
 		</div>
 	</div>
