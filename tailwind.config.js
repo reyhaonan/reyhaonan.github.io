@@ -65,6 +65,11 @@ module.exports = {
 			noto: ['Noto Sans', 'sans-serif']
 		},
 		extend: {
+			animation: {
+				smoothJelly: 'smoothJelly 1s ease-in-out infinite alternate-reverse',
+				jelly: 'jelly 2.3s ease-in-out infinite alternate-reverse',
+				jelly2: 'jelly2 2s ease-in-out infinite alternate-reverse'
+			},
 			spacing: {
 				2.5: '0.625rem',
 				18: '4.5rem',

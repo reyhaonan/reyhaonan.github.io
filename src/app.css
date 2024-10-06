@@ -47,3 +47,134 @@ body {
 		rgb(254, 250, 44) 5.76102px -1.67649px 0px,
 		rgb(254, 250, 44) 5.95932px -0.697531px 0px;
 }
+
+@keyframes jelly {
+	0% {
+		transform: scale(1.2, 1.15) skewX(20deg) translateY(6px) rotateX(25deg) rotateY(12deg)
+			rotateZ(-12deg);
+	}
+
+	10% {
+		transform: scale(1.08, 1.18) skewX(-15deg) translateY(-7px) translateZ(-25px) rotateX(18deg)
+			rotateY(-15deg) rotateZ(8deg);
+	}
+
+	20% {
+		transform: scale(0.95, 1.06) skewX(12deg) translateY(8px) translateZ(30px) rotateX(-15deg)
+			rotateY(18deg) rotateZ(-5deg);
+	}
+
+	30% {
+		transform: scale(1.04, 1.08) skewX(-10deg) translateY(-4px) translateZ(-22px) rotateX(13deg)
+			rotateY(-10deg) rotateZ(8deg);
+	}
+
+	40% {
+		transform: scale(1.12, 0.98) skewX(8deg) translateY(5px) translateZ(-18px) rotateX(-10deg)
+			rotateY(12deg) rotateZ(-7deg);
+	}
+
+	50% {
+		transform: scale(0.96, 1.07) skewX(-12deg) translateY(-6px) translateZ(23px) rotateX(10deg)
+			rotateY(-15deg) rotateZ(6deg);
+	}
+
+	60% {
+		transform: scale(1.03, 1.04) skewX(7deg) translateY(4px) translateZ(-15px) rotateX(-8deg)
+			rotateY(10deg) rotateZ(-5deg);
+	}
+
+	70% {
+		transform: scale(1.08, 0.99) skewX(-5deg) translateY(-5px) translateZ(18px) rotateX(6deg)
+			rotateY(-8deg) rotateZ(3deg);
+	}
+
+	80% {
+		transform: scale(1.02, 1.05) skewX(10deg) translateY(6px) translateZ(-12px) rotateX(-5deg)
+			rotateY(6deg) rotateZ(-2deg);
+	}
+
+	90% {
+		transform: scale(1.07, 1.03) skewX(-7deg) translateY(-4px) translateZ(15px) rotateX(3deg)
+			rotateY(-4deg) rotateZ(2deg);
+	}
+
+	100% {
+		transform: scale(1.2, 1.15) skewX(20deg) translateY(6px) rotateX(-25deg) rotateY(-12deg)
+			rotateZ(-2deg);
+	}
+}
+
+@keyframes jelly2 {
+	0% {
+		transform: scale(1.15, 1.08) skewX(25deg) translateY(7px) rotateX(30deg) rotateY(15deg)
+			rotateZ(-15deg);
+	}
+
+	10% {
+		transform: scale(1.02, 1.17) skewX(-18deg) translateY(-8px) translateZ(-32px) rotateX(22deg)
+			rotateY(-18deg) rotateZ(8deg);
+	}
+
+	20% {
+		transform: scale(0.93, 1.05) skewX(15deg) translateY(9px) translateZ(35px) rotateX(-20deg)
+			rotateY(22deg) rotateZ(-7deg);
+	}
+
+	30% {
+		transform: scale(1.07, 1.03) skewX(-12deg) translateY(-5px) translateZ(-20px) rotateX(17deg)
+			rotateY(-13deg) rotateZ(10deg);
+	}
+
+	40% {
+		transform: scale(1.14, 0.96) skewX(10deg) translateY(6px) translateZ(-17px) rotateX(-15deg)
+			rotateY(18deg) rotateZ(-12deg);
+	}
+
+	50% {
+		transform: scale(0.97, 1.08) skewX(-15deg) translateY(-7px) translateZ(24px) rotateX(18deg)
+			rotateY(-20deg) rotateZ(8deg);
+	}
+
+	60% {
+		transform: scale(1.05, 1.02) skewX(12deg) translateY(5px) translateZ(-18px) rotateX(-17deg)
+			rotateY(15deg) rotateZ(-10deg);
+	}
+
+	70% {
+		transform: scale(1.1, 0.98) skewX(-10deg) translateY(-6px) translateZ(20px) rotateX(13deg)
+			rotateY(-12deg) rotateZ(8deg);
+	}
+
+	80% {
+		transform: scale(1.03, 1.04) skewX(8deg) translateY(7px) translateZ(-15px) rotateX(-10deg)
+			rotateY(10deg) rotateZ(-7deg);
+	}
+
+	90% {
+		transform: scale(1.08, 1.01) skewX(-7deg) translateY(-5px) translateZ(17px) rotateX(12deg)
+			rotateY(-15deg) rotateZ(10deg);
+	}
+
+	100% {
+		transform: scale(1.15, 1.08) skewX(25deg) translateY(7px) rotateX(-30deg) rotateY(-15deg)
+			rotateZ(-2deg);
+	}
+}
+
+@keyframes smoothJelly {
+	0% {
+		width: 100%;
+		transform: scale(1.25, 1) skewX(20deg) translateY(3px) rotateX(12deg) rotateY(10deg)
+			rotateZ(-10deg);
+	}
+	50% {
+		width: 100%;
+		transform: scale(1.25, 1.1) skewX(-15deg) translateY(-2px) translateZ(-30px);
+	}
+	100% {
+		width: 100%;
+		transform: scale(1.25, 1) skewX(20deg) translateY(3px) rotateX(-16deg) rotateY(-10deg)
+			rotateZ(-15deg);
+	}
+}

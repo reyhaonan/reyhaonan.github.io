@@ -8,25 +8,29 @@
 				>
 			</h1>
 
-			<svg
-				width="55%"
-				viewBox="0 0 392 203"
-				fill="none"
-				xmlns="http://www.w3.org/2000/svg"
-				class="absolute right-2 top-2/3 -translate-y-1/2 z-40"
-			>
-				<path d="M38 19L392 0L349 187L0 203L38 19Z" fill="#2EF8F8" />
-			</svg>
+			<div class="absolute right-2 top-2/3 -translate-y-1/2 z-40">
+				<svg
+					width="100%"
+					viewBox="0 0 392 203"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+					class="animate-smoothJelly"
+				>
+					<path d="M38 19L392 0L349 187L0 203L38 19Z" fill="#2EF8F8" />
+				</svg>
+			</div>
 
-			<svg
-				width="55%"
-				viewBox="0 0 392 203"
-				fill="none"
-				xmlns="http://www.w3.org/2000/svg"
-				class="absolute -right-4 top-1/2 -translate-y-1/2 z-40"
-			>
-				<path d="M38 19L392 0L349 187L0 203L38 19Z" fill="white" />
-			</svg>
+			<div class="absolute -right-4 top-1/2 -translate-y-1/2 z-40">
+				<svg
+					width="100%"
+					viewBox="0 0 353 198"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+					class="animate-[smoothJelly_.8s_ease-in-out_infinite_alternate-reverse]"
+				>
+					<path d="M0 21L352.5 0.5L311 189L9.5 197.5L0 21Z" fill="white" />
+				</svg>
+			</div>
 		</div>
 
 		<div class="flavorText absolute bottom-32 right-20 w-1/4">
