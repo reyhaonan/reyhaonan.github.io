@@ -66,7 +66,8 @@ module.exports = {
 		},
 		extend: {
 			animation: {
-				smoothJelly: 'smoothJelly 1s ease-in-out infinite alternate-reverse',
+				smoothJelly: 'smoothJelly 1s linear infinite alternate-reverse',
+				smootherJelly: 'smootherJelly 1s linear infinite alternate-reverse',
 				jelly: 'jelly 2.3s ease-in-out infinite alternate-reverse',
 				jelly2: 'jelly2 2s ease-in-out infinite alternate-reverse'
 			},

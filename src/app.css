@@ -178,3 +178,19 @@ body {
 			rotateZ(-15deg);
 	}
 }
+
+@keyframes smootherJelly {
+	0% {
+		width: 100%;
+		transform: scale(1.05, 1) skewX(2deg) translateY(1px) rotateX(2deg) rotateY(1deg) rotateZ(-1deg);
+	}
+	50% {
+		width: 100%;
+		transform: scale(1, 1.1) skewX(-1deg) translateY(-2px) translateZ(1px);
+	}
+	100% {
+		width: 100%;
+		transform: scale(1, 1.05) skewX(2deg) translateY(1px) rotateX(-2deg) rotateY(-1deg)
+			rotateZ(-2deg);
+	}
+}

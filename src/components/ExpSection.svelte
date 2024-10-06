@@ -19,18 +19,26 @@
 	</div>
 
 	<div class="flavorText absolute -bottom-[20vh] left-0 w-2/3 ml-16 z-10">
-		<svg width="100%" viewBox="0 0 1234 456" fill="none" xmlns="http://www.w3.org/2000/svg">
-			<path d="M32.4195 105.53L1234 0L1153.72 456L0 394.904L32.4195 105.53Z" fill="white" />
-		</svg>
 		<svg
-			class="absolute-center"
-			width="92%"
-			viewBox="0 0 1160 392"
+			width="100%"
+			class="animate-smootherJelly"
+			viewBox="0 0 1234 456"
 			fill="none"
 			xmlns="http://www.w3.org/2000/svg"
 		>
-			<path d="M13.5 76L1159.5 0.5L1103 391.5L0 334.5L13.5 76Z" fill="#010101" />
+			<path d="M32.4195 105.53L1234 0L1153.72 456L0 394.904L32.4195 105.53Z" fill="white" />
 		</svg>
+		<div class="absolute-center w-[90%]">
+			<svg
+				class="animate-[smootherJelly_1.2s_linear_infinite_alternate-reverse]"
+				width="100%"
+				viewBox="0 0 1160 392"
+				fill="none"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<path d="M13.5 76L1159.5 0.5L1103 391.5L0 334.5L13.5 76Z" fill="#010101" />
+			</svg>
+		</div>
 
 		<p class="font-bold text-28 2xl:text-36 text-center absolute-center w-4/5 z-10 text-white">
 			As a passionate Fullstack Web Developer with years of experience, I excel in transforming
