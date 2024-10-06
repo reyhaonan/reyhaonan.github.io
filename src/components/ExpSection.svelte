@@ -19,19 +19,12 @@
 	</div>
 
 	<div class="flavorText absolute -bottom-[20vh] left-0 w-2/3 ml-16 z-10">
-		<svg
-			width="100%"
-			height="456"
-			viewBox="0 0 1234 456"
-			fill="none"
-			xmlns="http://www.w3.org/2000/svg"
-		>
+		<svg width="100%" viewBox="0 0 1234 456" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<path d="M32.4195 105.53L1234 0L1153.72 456L0 394.904L32.4195 105.53Z" fill="white" />
 		</svg>
 		<svg
 			class="absolute-center"
 			width="92%"
-			height="392"
 			viewBox="0 0 1160 392"
 			fill="none"
 			xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +41,6 @@
 
 	<svg
 		width="100%"
-		height="1224"
 		viewBox="0 0 1920 1224"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
