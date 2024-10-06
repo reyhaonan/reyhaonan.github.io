@@ -8,7 +8,7 @@
 				>
 			</h1>
 
-			<div class="absolute right-2 top-2/3 -translate-y-1/2 z-40">
+			<div class="absolute right-8 top-2/3 -translate-y-1/2 z-40 w-5/12">
 				<svg
 					width="100%"
 					viewBox="0 0 392 203"
@@ -20,7 +20,7 @@
 				</svg>
 			</div>
 
-			<div class="absolute -right-4 top-1/2 -translate-y-1/2 z-40">
+			<div class="absolute right-6 top-1/2 -translate-y-1/2 z-40 w-5/12">
 				<svg
 					width="100%"
 					viewBox="0 0 353 198"
