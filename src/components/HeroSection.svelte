@@ -40,7 +40,7 @@
 					viewBox="0 0 541 167"
 					fill="none"
 					xmlns="http://www.w3.org/2000/svg"
-					class="animate-smootherJelly"
+					class="animate-[smootherJelly_8s_linear_infinite_alternate-reverse]"
 				>
 					<path d="M60.6053 0H541L510.975 167L0 157.439L60.6053 0Z" fill="#1B1B1B" />
 				</svg>
@@ -51,7 +51,7 @@
 						viewBox="0 0 487 131"
 						fill="none"
 						xmlns="http://www.w3.org/2000/svg"
-						class="animate-smootherJelly"
+						class="animate-[smootherJelly_7s_linear_infinite_alternate-reverse]"
 					>
 						<path d="M55 0H487L460 131L0.5 123.5L55 0Z" fill="#010101" />
 					</svg>

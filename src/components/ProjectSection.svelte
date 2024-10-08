@@ -17,7 +17,7 @@
 			<div class="description absolute -right-[48vw] w-[56vw] -rotate-[8deg] -top-8">
 				<svg
 					width="100%"
-					class="animate-smootherJelly"
+					class="animate-[smootherJelly_11s_linear_infinite_alternate-reverse]"
 					viewBox="0 0 1098 429"
 					fill="none"
 					xmlns="http://www.w3.org/2000/svg"
@@ -29,7 +29,7 @@
 				</svg>
 				<div class="absolute-center w-11/12">
 					<svg
-						class="animate-[smootherJelly_1.1s_linear_infinite_alternate-reverse]"
+						class="animate-[smootherJelly_10s_linear_infinite_alternate-reverse]"
 						width="100%"
 						viewBox="0 0 990 367"
 						fill="none"
