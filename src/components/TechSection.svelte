@@ -20,10 +20,10 @@
 			style={"mask-image: url('/mask.svg'); mask-repeat:no-repeat;mask-size:100%"}
 		>
 			<div class="absolute left-1/2 -translate-x-1/2 bottom-3/5 w-1 h-1 -skew-y-[20deg]">
-				{#each Array(20).fill(true) as key, i}
+				{#each Array(12).fill(true) as key, i}
 					<div
 						class={`absolute-center circle aspect-square rounded-full border-[20px] border-white`}
-						style={`width: ${i * 120}px;z-index: ${20 - i}`}
+						style={`width: ${i * 120}px;z-index: ${12 - i}`}
 					></div>
 				{/each}
 			</div>
