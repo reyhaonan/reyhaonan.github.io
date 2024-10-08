@@ -1,3 +1,5 @@
-<section class="overflow-x-hidden">
-	<img src="/jft.png" class="w-full -z-10" height="1080" width="1920" alt="girl with umbrella" />
+<section class="h-[200vh] relative overflow-visible">
+	<div class="sticky top-0 w-full -z-10">
+		<img class="w-full" src="/jft.png" height="1080" width="1920" alt="girl with umbrella" />
+	</div>
 </section>
