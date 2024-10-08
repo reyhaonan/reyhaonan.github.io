@@ -40,7 +40,7 @@
 			</svg>
 
 			<div
-				class="absolute top-1/2 -translate-y-1/2 w-1/2 left-28 font-semibold text-white text-28 text-center"
+				class="absolute top-1/2 -translate-y-1/2 w-1/2 left-28 font-semibold text-white text-18 2xl:text-28 text-center"
 			>
 				Born on April 2, 2003, he discovered his passion for programming in high school. Now
 				studying Information System at the Open University, he's excited to shape the future of
