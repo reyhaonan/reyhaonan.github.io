@@ -1,7 +1,6 @@
 <script lang="ts">
 	import anime from 'animejs';
 	import { onMount } from 'svelte';
-	import { linear } from 'svelte/easing';
 
 	onMount(() => {
 		anime({
@@ -30,8 +29,7 @@
 			</div>
 			<svg
 				class="absolute left-1/2 -translate-x-1/2"
-				width="1320"
-				height="947"
+				width="100%"
 				viewBox="0 0 1320 947"
 				fill="none"
 				xmlns="http://www.w3.org/2000/svg"
