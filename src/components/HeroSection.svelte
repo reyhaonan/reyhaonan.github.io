@@ -1,3 +1,17 @@
+<script lang="ts">
+	import { fly } from 'svelte/transition';
+	import { quintOut } from 'svelte/easing';
+	import { onMount } from 'svelte';
+
+	let show = false;
+	onMount(() => {
+		let tmt = setTimeout(() => {
+			show = true;
+			clearTimeout(tmt);
+		}, 300);
+	});
+</script>
+
 <section class="HERO relative">
 	<div class="min-h-screen flex-center overflow-x-hidden">
 		<!-- Hero H1 -->
@@ -33,35 +47,47 @@
 			</div>
 		</div>
 
-		<div class="flavorText absolute bottom-1/6 right-20 w-1/4 z-40">
-			<div class="absolute-center w-full">
-				<svg
-					width="100%"
-					viewBox="0 0 541 167"
-					fill="none"
-					xmlns="http://www.w3.org/2000/svg"
-					class="animate-[smootherJelly_8s_linear_infinite_alternate-reverse]"
-				>
-					<path d="M60.6053 0H541L510.975 167L0 157.439L60.6053 0Z" fill="#1B1B1B" />
-				</svg>
-
-				<div class="absolute-center w-10/12">
+		{#if show}
+			<div
+				class="flavorText absolute bottom-1/6 right-20 w-1/4 z-40"
+				transition:fly={{
+					duration: 300,
+					x: 100,
+					opacity: 0,
+					easing: quintOut
+				}}
+			>
+				<div class="absolute-center w-full">
 					<svg
-						width="90%"
-						viewBox="0 0 487 131"
+						width="100%"
+						viewBox="0 0 541 167"
 						fill="none"
 						xmlns="http://www.w3.org/2000/svg"
-						class="animate-[smootherJelly_7s_linear_infinite_alternate-reverse]"
+						class="animate-[smootherJelly_8s_linear_infinite_alternate-reverse]"
 					>
-						<path d="M55 0H487L460 131L0.5 123.5L55 0Z" fill="#010101" />
+						<path d="M60.6053 0H541L510.975 167L0 157.439L60.6053 0Z" fill="#1B1B1B" />
 					</svg>
+
+					<div class="absolute-center w-10/12">
+						<svg
+							width="90%"
+							viewBox="0 0 487 131"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+							class="animate-[smootherJelly_7s_linear_infinite_alternate-reverse]"
+						>
+							<path d="M55 0H487L460 131L0.5 123.5L55 0Z" fill="#010101" />
+						</svg>
+					</div>
+				</div>
+
+				<div
+					class="text-16 2xl:text-24 text-center w-2/3 mx-auto z-40 text-white font-bold relative"
+				>
+					I'm a Fullstack developer from Indonesia.
 				</div>
 			</div>
-
-			<div class="text-16 2xl:text-24 text-center w-2/3 mx-auto z-40 text-white font-bold relative">
-				I'm a Fullstack developer from Indonesia.
-			</div>
-		</div>
+		{/if}
 	</div>
 	<svg
 		width="100%"
