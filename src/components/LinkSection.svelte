@@ -23,7 +23,7 @@
 			threshold={0.8}
 		>
 			<img
-				class="w-full"
+				class="w-full select-none"
 				src="/jft.png"
 				height="1080"
 				width="1920"
