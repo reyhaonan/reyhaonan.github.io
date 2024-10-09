@@ -23,6 +23,7 @@
 			threshold={0.8}
 		>
 			<img
+				fetchpriority="high"
 				class="w-full select-none"
 				src="/jft.png"
 				height="1080"
