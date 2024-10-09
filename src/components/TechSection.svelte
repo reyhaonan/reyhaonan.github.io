@@ -1,11 +1,16 @@
 <script lang="ts">
+	import { getRandomNumber } from '$lib/rng';
 	import anime from 'animejs';
 	import { onMount } from 'svelte';
 
 	onMount(() => {
+		let reverse = getRandomNumber();
+
+		let destination = reverse ? -120 : 120;
+
 		anime({
 			targets: document.querySelectorAll('.circle'),
-			width: (e: HTMLElement, i: number) => `${i * 120 + 120}px`,
+			width: (e: HTMLElement, i: number) => `${i * 120 + destination}px`,
 			loop: true,
 			easing: 'linear',
 			duration: 400
