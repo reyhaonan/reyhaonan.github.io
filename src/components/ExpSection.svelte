@@ -110,6 +110,6 @@
 	<img
 		src="/stars.svg"
 		alt="stars background"
-		class="absolute -top-[16vh] h-[180vh] left-0 -z-30"
+		class="absolute -top-[16vh] h-[180vh] left-0 -z-30 select-none"
 	/>
 </section>
