@@ -3,7 +3,7 @@
 	import { onMount } from 'svelte';
 	import IntersectionObserver from 'svelte-intersection-observer';
 
-	import { fly } from 'svelte/transition';
+	import { fade, fly, slide } from 'svelte/transition';
 	import { quintOut } from 'svelte/easing';
 
 	let element: HTMLElement;
@@ -64,9 +64,9 @@
 				<div
 					class="absolute top-1/2 -translate-y-1/2 w-1/2 left-28 font-semibold text-white text-18 2xl:text-28 text-center"
 				>
-					Born on April 2, 2003, he discovered his passion for programming in high school. Now
-					studying Information System at the Open University, he's excited to shape the future of
-					technology.
+					{#each "Born on April 2, 2003, he discovered his passion for programming in high school. Now studying Information System at the Open University, he's excited to shape the future of technology." as char, i}
+						<span in:slide|global={{ delay: 200 + i * 10 }}>{char}</span>
+					{/each}
 				</div>
 			</div>
 		{/if}
