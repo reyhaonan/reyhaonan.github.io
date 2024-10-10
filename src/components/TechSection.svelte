@@ -77,7 +77,7 @@
 			{#each techList as tech, i}
 				<!-- svelte-ignore a11y-no-static-element-interactions -->
 				<div
-					class="w-24 aspect-square"
+					class="w-20 aspect-square"
 					on:mouseenter={() => (hoveredTech = tech)}
 					style={`transform: translateY(${(i % 8) * -9}vh)`}
 				>
