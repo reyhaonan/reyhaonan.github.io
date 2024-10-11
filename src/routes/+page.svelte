@@ -18,7 +18,7 @@
 <ProjectSection />
 
 <ContactSection />
-
+<!-- 
 <div
 	class="flex items-center m-2 fixed bottom-0 right-0 border border-gray-400 rounded p-2 bg-white text-pink-600 text-sm z-50"
 >
@@ -50,4 +50,4 @@
 	<span class="ml-1 hidden lg:inline xl:hidden font-extrabold">lg</span>
 	<span class="ml-1 hidden xl:inline 2xl:hidden font-extrabold">xl</span>
 	<span class="ml-1 hidden 2xl:inline font-extrabold">2xl</span>
-</div>
+</div> -->
