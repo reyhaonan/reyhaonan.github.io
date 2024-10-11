@@ -16,7 +16,7 @@
 	<div class="min-h-screen flex-center overflow-x-hidden">
 		<!-- Hero H1 -->
 		<div class="text-white font-bold relative">
-			<h1 class="z-50 relative text-96">
+			<h1 class="z-50 relative text-42 lg:text-64 xl:text-96">
 				<span class="font-noto italic">H</span>i <span class="italic">I</span>'m
 				<span class="text-red font-semibold">Farras</span><span class="font-bold text-black">!</span
 				>
@@ -49,7 +49,7 @@
 
 		{#if show}
 			<div
-				class="flavorText absolute bottom-1/6 right-20 w-1/4 z-40"
+				class="flavorText absolute bottom-1/6 right-20 w-1/4 z-40 hidden lg:block"
 				transition:fly={{
 					duration: 300,
 					x: 100,
