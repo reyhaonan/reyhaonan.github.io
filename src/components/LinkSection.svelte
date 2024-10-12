@@ -1,9 +1,7 @@
 <script lang="ts">
-	import anime from 'animejs';
-	import { onMount } from 'svelte';
 	import IntersectionObserver from 'svelte-intersection-observer';
 
-	import { fade, fly, slide } from 'svelte/transition';
+	import { fly, slide } from 'svelte/transition';
 	import { quintOut } from 'svelte/easing';
 
 	let element: HTMLElement;
@@ -11,7 +9,7 @@
 	let intersect = false;
 </script>
 
-<section class="h-[200vh] relative overflow-visible">
+<section class="hidden md:block h-[200vh] relative overflow-visible">
 	<div class="sticky top-0 w-full -z-10">
 		<IntersectionObserver
 			{element}

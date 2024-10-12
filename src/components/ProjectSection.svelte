@@ -1,4 +1,4 @@
-<section class="relative">
+<section class="hidden md:block relative">
 	<div class="content h-screen">
 		<div class="anchor absolute-center w-1 h-1">
 			<div

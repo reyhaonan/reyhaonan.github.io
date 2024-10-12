@@ -41,9 +41,9 @@
 </script>
 
 <section class="relative mb-[322px]">
-	<div class="relative content pt-[36vh] pl-28 w-full">
+	<div class="relative content pt-[36vh] md:pl-28 w-full">
 		<div
-			class="bg-red w-2/3 h-[110vh] relative"
+			class="bg-red w-full md:w-2/3 h-[110vh] relative"
 			style={"mask-image: url('/mask.svg'); mask-repeat:no-repeat;mask-size:100%"}
 		>
 			<div class="absolute left-1/2 -translate-x-1/2 bottom-3/5 w-1 h-1 -skew-y-[20deg]">
@@ -72,12 +72,12 @@
 			</svg>
 		</div>
 		<div
-			class="techlist text-white w-2/3 2xl:w-1/2 grid grid-cols-8 gap-4 md:gap-8 lg:gap-12 xl:gap-16 mx-auto relative z-40 -mt-22 xl:-mt-32"
+			class="techlist text-white w-full md:w-2/3 2xl:w-1/2 grid grid-cols-4 md:grid-cols-8 gap-4 md:gap-8 lg:gap-12 xl:gap-16 mx-auto relative z-40 -mt-22 xl:-mt-32"
 		>
 			{#each techList as tech, i}
 				<!-- svelte-ignore a11y-no-static-element-interactions -->
 				<div
-					class="w-4 md:w-8 lg:w-12 xl:w-16 2xl:w-18 aspect-square"
+					class="w-12 xl:w-16 2xl:w-18 aspect-square"
 					on:mouseenter={() => (hoveredTech = tech)}
 					style={`transform: translateY(${(i % 8) * -9}vh)`}
 				>

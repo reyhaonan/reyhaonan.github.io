@@ -93,7 +93,7 @@
 		width="100%"
 		viewBox="0 0 1920 921"
 		fill="none"
-		class="absolute z-20 -bottom-[18vh] left-0"
+		class="hidden md:block absolute z-20 -bottom-[18vh] left-0"
 		xmlns="http://www.w3.org/2000/svg"
 	>
 		<path

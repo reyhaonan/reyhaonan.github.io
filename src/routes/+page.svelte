@@ -3,6 +3,7 @@
 	import ExpSection from '../components/ExpSection.svelte';
 	import HeroSection from '../components/HeroSection.svelte';
 	import LinkSection from '../components/LinkSection.svelte';
+	import LoadingScreen from '../components/LoadingScreen.svelte';
 	import ProjectSection from '../components/ProjectSection.svelte';
 	import TechSection from '../components/TechSection.svelte';
 </script>
@@ -18,6 +19,8 @@
 <ProjectSection />
 
 <ContactSection />
+
+<LoadingScreen />
 <!-- 
 <div
 	class="flex items-center m-2 fixed bottom-0 right-0 border border-gray-400 rounded p-2 bg-white text-pink-600 text-sm z-50"
