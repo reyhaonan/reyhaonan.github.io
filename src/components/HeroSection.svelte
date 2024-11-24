@@ -1,15 +1,4 @@
 <script lang="ts">
-	import { fly } from 'svelte/transition';
-	import { quintOut } from 'svelte/easing';
-	import { onMount } from 'svelte';
-
-	let show = false;
-	onMount(() => {
-		let tmt = setTimeout(() => {
-			show = true;
-			clearTimeout(tmt);
-		}, 300);
-	});
 </script>
 
 <section class="HERO relative">
@@ -47,15 +36,8 @@
 			</div>
 		</div>
 
-		{#if show}
 			<div
 				class="flavorText absolute bottom-1/6 right-20 w-1/4 z-40 hidden lg:block"
-				transition:fly={{
-					duration: 300,
-					x: 100,
-					opacity: 0,
-					easing: quintOut
-				}}
 			>
 				<div class="absolute-center w-full">
 					<svg
@@ -87,19 +69,18 @@
 					I'm a Fullstack developer from Indonesia.
 				</div>
 			</div>
-		{/if}
 	</div>
-	<svg
-		width="100%"
-		viewBox="0 0 1920 921"
-		fill="none"
-		class="hidden md:block absolute z-20 -bottom-[18vh] left-0"
-		xmlns="http://www.w3.org/2000/svg"
-	>
-		<path
+
+		<svg
 			width="100%"
-			d="M396.915 721.342L0.5 0V203.881L325.706 920.128L1917.71 784.411V478.964L396.915 721.342Z"
-			fill="#FF0000"
-		/>
-	</svg>
+			viewBox="0 0 1920 921"
+			fill="none"
+			class="hidden md:block absolute z-20 -bottom-[18vh] left-0"
+			xmlns="http://www.w3.org/2000/svg"
+		>
+			<path
+				d="M396.915 721.342L0.5 0V203.881L325.706 920.128L1917.71 784.411V478.964L396.915 721.342Z"
+				fill="#FF0000"
+			/>
+		</svg>
 </section>

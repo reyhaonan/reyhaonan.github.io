@@ -8,19 +8,20 @@
 	import TechSection from '../components/TechSection.svelte';
 </script>
 
-<HeroSection />
 
-<LinkSection />
+	<HeroSection />
 
-<ExpSection />
+	<LinkSection />
 
-<TechSection />
+	<ExpSection />
 
-<ProjectSection />
+	<TechSection />
 
-<ContactSection />
+	<ProjectSection />
 
-<LoadingScreen />
+	<ContactSection />
+
+	<LoadingScreen  />
 <!-- 
 <div
 	class="flex items-center m-2 fixed bottom-0 right-0 border border-gray-400 rounded p-2 bg-white text-pink-600 text-sm z-50"

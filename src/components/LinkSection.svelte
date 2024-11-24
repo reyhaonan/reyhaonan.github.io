@@ -63,7 +63,7 @@
 					class="absolute top-1/2 -translate-y-1/2 w-2/3 pl-12 font-semibold text-white text-12 lg:text-16 xl:text-18 2xl:text-24 text-center"
 				>
 					{#each "Born on April 2, 2003, he discovered his passion for programming in high school. Now studying Information System at the Open University, he's excited to shape the future of technology." as char, i}
-						<span in:slide|global={{ delay: 200 + i * 10 }}>{char}</span>
+						<span in:slide|global={{ delay: 100 + i * 10 }}>{char}</span>
 					{/each}
 				</div>
 			</div>
